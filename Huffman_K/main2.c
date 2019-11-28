@@ -14,7 +14,7 @@ struct SYM {
 //	char syms[256];
 	char code[255];//резуультат
 	struct SYM *left; //левая ветка 0
-	struct SYM *right; // правая ветка 1
+	struct SYM *right; // правая ветка 1	
 
 };
 
@@ -64,14 +64,6 @@ union CODE {
 
 	}byte;
 };
-
-
-
-
-
-
-
-
 
 
 struct SYM* buildTree(struct SYM*psyms[], int N)
@@ -125,8 +117,6 @@ void makeCodes(struct SYM *root)
 		makeCodes(root->right);
 		makeCodes(root->left);
 	}
-
-
 }
 
 

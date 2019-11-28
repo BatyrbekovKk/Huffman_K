@@ -1,1 +1,17 @@
-qqqqqqqqwerty
+prog.exe -c origin.txt coded.txt tree.txt
+prog.exe -d coded.txt decoded.txt tree.txt
+условн форматировавние принтф
+%4d or %4s sort left sort right
+
+	           (0)
+	         /     \
+              (0)[a] (1)[b]
+////////[ tree.txt ]
+[0]{};[00]{a}[01]{b};[001]{c}[1]{d}[
+
+
+	           (0)
+	         /     \
+              (0)[a] (1)[b]
+
+
