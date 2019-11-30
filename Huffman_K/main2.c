@@ -133,7 +133,7 @@ void makeStruct(struct SYM *syms)
 	}
 }
 /*
-void freqToStruct(FILE *fp, struct SYM *syms)// заполн 
+void freqToStruct(FILE *fp, struct SYM *syms)// заполн
 {
 	char c=0;//
 	int c_num=0;
@@ -185,7 +185,7 @@ int printSort(struct SYM *syms, int count)
 	{
 		if (syms[i].freq > 0)
 		{
-			printf("%0.f  %0.2f%%     '%c' %c\n", syms[i].freq, (100 * syms[i].freq) / count, syms[i].ch , syms[i].code);
+			printf("%0.f  %0.2f%%     '%c' %c\n", syms[i].freq, (100 * syms[i].freq) / count, syms[i].ch, syms[i].code);
 			count_used++;
 		}
 	}
